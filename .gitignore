@@ -1,0 +1,11 @@
+# タスクリスト - 更新を無視
+# todo.md
+
+# doing directory - .keep以外を無視
+doing/*
+!doing/.keep
+
+# done directory - .keep以外を無視
+done/*
+!done/.keep
+# !done/todo.md

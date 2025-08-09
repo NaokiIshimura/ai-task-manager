@@ -1,3 +1,2 @@
 # done
-- task5
-- task6
+- sample
