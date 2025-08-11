@@ -8,4 +8,4 @@ doing/*
 # done directory - .keep以外を無視
 done/*
 !done/.keep
-!done/todo.md
+!done/todo.sample.md
