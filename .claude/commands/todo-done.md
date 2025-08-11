@@ -9,10 +9,12 @@ doingリストからタスクを選択してdoneに移動し、完了処理を�
 ```
 
 ## 処理内容
-1. todo.mdのdoingセクションから指定された番号のタスクを取得
-2. ./done/todo.md の # done セクションに「- YYYYMMDD_<todo>」を追加
-3. ./todo.md の # doing セクションから該当タスクを削除
-4. ./doing/YYYYMMDD_<todo> フォルダを ./done/YYYYMMDD_<todo> へ移動
+1. タスク番号が引数に指定されているか確認
+   - 指定されていない場合はユーザーに確認を求める
+2. todo.mdのdoingセクションから指定された番号のタスクを取得
+3. ./done/todo.md の # done セクションに「- YYYYMMDD_<todo>」を追加
+4. ./todo.md の # doing セクションから該当タスクを削除
+5. ./doing/YYYYMMDD_<todo> フォルダを ./done/YYYYMMDD_<todo> へ移動
 
 ## 例
 ```
